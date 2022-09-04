@@ -15,6 +15,6 @@ lint:
 	pylint --disable=R,C,W1203,W0702 app.py
 
 web-app:
-	az webapp up --name datdt201-ml-service --resource-group Azuredevops
+	az webapp up --name loihuynh1610-ml-service --resource-group udacity-devops
 
 all: install lint test
