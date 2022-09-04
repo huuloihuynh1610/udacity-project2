@@ -2,7 +2,7 @@ name: Loi Huynh ML app service
 
 on:
   push:
-    branches: [ huuloihuynh1610/udacity-project2 ]
+    branches: [ main ]
 
 jobs:
   build:
