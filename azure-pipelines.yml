@@ -60,8 +60,9 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : $(webAppName)'
             inputs:
-              azureSubscription: $(azureServiceConnectionId)
-              appName: $(webAppName)
-              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              azureSubscription: 'Azure subscription 1(76c7270a-0d31-4261-9422-e3fdef5764b9)'
+              appType: 'webAppLinux'
+              appName: 'loihuynh1610-ml-service2'
+              package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+              runtimeStack: 'PYTHON|3.7'
