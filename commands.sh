@@ -1,1 +1,1 @@
-az webapp up --name loihuynh1610-ml-service --resource-group udacity-devops
+az webapp up --name loihuynh1610-ml-service2 --resource-group udacity-devops
