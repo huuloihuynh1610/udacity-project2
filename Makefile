@@ -1,6 +1,6 @@
 setup:
-	python3 -m venv udacity-project2
-	source udacity-project2/bin/activate
+	python3 -m venv .udacity-project2
+	source ./udacity-project2/bin/activate
 
 install:
 	pip3 install --upgrade pip &&\
@@ -16,6 +16,6 @@ lint:
 	pylint --disable=R,C,W1203,W0702 app.py
 
 web-app:
-	az webapp up --name loihuynh1610-ml-service --resource-group udacity-devops
+	az webapp up --name loihuynh1610-ml-service2 --resource-group udacity-devops
 
 all: install lint test
