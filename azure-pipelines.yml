@@ -64,5 +64,5 @@ stages:
               azureSubscription: 'Azure subscription 1(76c7270a-0d31-4261-9422-e3fdef5764b9)'
               appType: 'webAppLinux'
               appName: 'loihuynh1610-ml-service2'
-              package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+              package: '$(System.DefaultWorkingDirectory)/*.zip'
               runtimeStack: 'PYTHON|3.7'
