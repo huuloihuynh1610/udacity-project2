@@ -1,12 +1,12 @@
 trigger:
-- projects/ml-app-cicd
+- main
 
 pool: 'Self-hosted'
 
 variables:
   azureServiceConnectionId: 'Udacity Azure'
   
-  webAppName: 'datdt201-ml-service'
+  webAppName: 'loihuynh1610-ml-service'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
