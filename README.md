@@ -12,6 +12,7 @@ After this project, you will be able to:
 * [Tasks Kanban](https://trello.com/b/6Bz6jB9R/udacity-ml-app)
 
 ## Architectural Diagram
+![image](https://user-images.githubusercontent.com/65603266/188467291-6eb213a2-6142-4024-9371-f4de9bbc8d9b.png)
 
 ## Instructions
 ### Deploy project with Azure Cloud Shell  
