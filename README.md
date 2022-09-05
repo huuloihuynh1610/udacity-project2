@@ -12,7 +12,6 @@ After this project, you will be able to:
 * [Tasks Kanban](https://trello.com/b/6Bz6jB9R/udacity-ml-app)
 
 ## Architectural Diagram
-![](docs/screenshots/architecture-diagram.png)
 
 ## Instructions
 ### Deploy project with Azure Cloud Shell  
@@ -21,7 +20,6 @@ After this project, you will be able to:
 git clone https://github.com/datdt201/udacity.git -b projects/ml-app-cicd
 cd udacity
 ```
-![](docs/screenshots/git-clone.png)
 
 * Install Python virtual environment
 ```
@@ -33,9 +31,7 @@ source .udacity-devops/bin/activate
 ```
 make all
 ```
-![](docs/screenshots/lint-test.png)
 This steps also be triggered automatically by GitHub Actions when new code is pushed
-![](docs/screenshots/github-actions.png)
 
 * Deploy project to Azure App Service
 ```
@@ -61,7 +57,6 @@ The output should look similar to this:
 ```
 az webapp log tail --resource-group Azuredevops --name datdt201-ml-service
 ```
-![](docs/screenshots/app-service-tail.png)
 
 ## Enhancements
 Following item can be done next to improve the project.
@@ -71,4 +66,4 @@ Following item can be done next to improve the project.
 * Split build and deploy stages into 2 pipelines so that we can re-use built artifact to deploy to different environment
 
 ## Demo
-https://drive.google.com/drive/folders/1TdfaIawMK1bubP72bB8fFJbIo_u5C8I8?usp=sharing
+
